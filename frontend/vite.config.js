@@ -10,4 +10,5 @@ export default defineConfig({
   plugins: [
     react(),
      tailwindcss()],
+     server:[5173]
 })
