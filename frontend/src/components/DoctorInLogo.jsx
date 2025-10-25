@@ -8,11 +8,11 @@ const DoctorInLogo = () => {
   // Light Blue End (Gradient): #A9CCE3
 
   return (
-    <div className="flex items-center text-[46px] font-extrabold leading-none">
+    <div className="flex items-center text-[33px] font-extrabold leading-none">
       
       {/* Your Image Icon */}
       <img 
-        className="h-[46px] w-auto mr-2" 
+        className="h-[42px] w-auto mr-2" 
         src={assets.logo} 
         alt="Doctor In Icon" 
       />
