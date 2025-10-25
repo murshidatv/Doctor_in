@@ -25,12 +25,12 @@ const About = () => {
             continuously strive to enhance our platform, integrating the latest
             advancements to improve user experience and deliver superior
             service. Whether you're booking your first appointment or managing
-            ongoing care, Prescripto is here to support you every step of the
+            ongoing care, Doctor in is here to support you every step of the
             way..
           </p>
           <b className="text-gray-800">Our Vision</b>
           <p>
-            Our vision at Prescripto is to create a seamless healthcare
+            Our vision at Doctor in is to create a seamless healthcare
             experience for every user. We aim to bridge the gap between patients
             and healthcare providers, making it easier for you to access the
             care you need, when you need it.{" "}
