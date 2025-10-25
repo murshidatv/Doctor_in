@@ -3,7 +3,7 @@ import { assets } from "../assets/assets";
 import { NavLink, useNavigate } from "react-router-dom";
 import { useState ,useContext} from "react";
 import { AppContext } from "../context/AppContext";
-
+import DoctorInLogo from '../components/DoctorInLogo';
 const Navbar = () => {
   const navigate = useNavigate();
   const {token, setToken, userData} = useContext(AppContext)
@@ -18,7 +18,14 @@ const Navbar = () => {
 
   return (
     <div className="flex items-center justify-between text-sm py-4 mb-5 border-b border-b-gray-400">
-      <img onClick={()=>navigate('/')} className="w-10 cursor-pointer" src={assets.logo} alt="" />
+      <div 
+  onClick={() => navigate('/')} 
+  className="cursor-pointer"
+>
+  {/* Pass the image source here */}
+  <DoctorInLogo iconSrc={assets.logo} />
+</div>
+      <img onClick={()=>navigate('/')} className="w-10 cursor-pointer"  />
       <ul className="hidden md:flex items-start gap-5 font-medium">
         <NavLink to="/">
           <li className="py-1">HOME</li>
