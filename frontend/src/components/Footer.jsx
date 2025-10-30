@@ -28,7 +28,7 @@ const Footer = () => {
             <li>Privacy policy</li>
           </ul>
         </div>
-        {/*------------Riht Section------- */}
+        {/*------------Right Section------- */}
         <div>
           <p className="text-xl font-medium mb-5">GET IN TOUCH</p>
           <ul className="flex flex-col gap2 text-gray-600">
